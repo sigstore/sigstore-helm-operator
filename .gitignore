@@ -1,0 +1,23 @@
+# OSX
+.DS_Store
+
+#EnvTest
+testbin/*
+
+#Bundle
+bundle
+bundle.Dockerfile
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin
+
+# editor and IDE paraphernalia
+.idea
+*.swp
+*.swo
+*~
