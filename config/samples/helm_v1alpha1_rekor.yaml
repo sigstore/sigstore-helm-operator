@@ -1,0 +1,8 @@
+apiVersion: helm.sigstore.dev/v1alpha1
+kind: Rekor
+metadata:
+  name: rekor
+spec:
+  server:
+    ingress:
+      hostname: rekor.example.com
