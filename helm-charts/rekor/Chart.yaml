@@ -1,0 +1,14 @@
+apiVersion: v2
+appVersion: 0.3.0
+description: Rekor is an API based server for validation and a transparency log for
+  storage
+home: https://sigstore.dev/
+keywords:
+- security
+maintainers:
+- name: The Sigstore Authors
+name: rekor
+sources:
+- https://github.com/sigstore/rekor
+type: application
+version: 0.2.1
