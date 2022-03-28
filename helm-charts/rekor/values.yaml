@@ -110,7 +110,7 @@ server:
   image:
     repository: gcr.io/projectsigstore/rekor-server
     pullPolicy: IfNotPresent
-    version: "sha256:3dadc6f0d718c9aab3beefec2131713b52af89c280aa460220fa2a7ec5ca4205"
+    version: "sha256:726ae4de825447ec74420f72ca2e17f906e6591240802f5e85b0dc340ed163b3"
   logging:
     production: false
   ingress:
