@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: build
+    permissions:
+      contents: write
+      packages: write
     steps:
       - name: set repo name
         shell: bash
@@ -111,6 +114,9 @@ jobs:
     runs-on: ubuntu-latest
     if: "startsWith(github.ref, 'refs/tags')"
     needs: ["build"]
+    permissions:
+      contents: write
+      packages: write
     steps:
       - name: set repo name
         shell: bash
